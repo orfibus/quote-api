@@ -71,7 +71,7 @@ public class Quote implements Serializable {
     }
 
     /**
-     * Converts a json string to quote object
+     * A custom mapper that converts a json string to quote object
      * */
     public static ArrayList<Quote> jsonToQuotes(JSONArray json) {
         ArrayList<Quote> quotes = new ArrayList<Quote>();
