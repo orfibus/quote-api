@@ -25,7 +25,11 @@ In order to build the API from source you must follow this steps:
 In order to run the API you need to either build it from source or downloaded the jar file from Releases page on github.
 To run the jar file you just need to use the command:
 
-```java -jar target/quote-api-0.0.1-SNAPSHOT.jar```
+```java -jar quote-api-0.0.1-SNAPSHOT.jar``` if downloaded the release
+
+OR
+
+```java -jar target/quote-api-0.0.1-SNAPSHOT.jar``` if you built from source
 
 When running the API listens at ```localhost``` and port ```8080```.
 
